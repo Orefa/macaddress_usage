@@ -11,8 +11,8 @@ fn main() {
 	
 	match mac_address::MacAddressIterator::new() {
 		Ok(iter) => {
-			for ele in iter {
-				println!("{}", ele);
+			for ma in iter {
+				println!("{}", ma);
 			}
 			
 		}
